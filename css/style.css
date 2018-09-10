@@ -1,0 +1,620 @@
+
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 28" width="56" height="28"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z"%3E%3C/path%3E%3C/svg%3E');
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFE7E2;
+}
+
+.encabezado {
+  position: relative;
+  background-image: url('https://images6.alphacoders.com/379/thumb-1920-379404.jpg');
+  list-style: none;
+  text-transform: uppercase;
+  width: 100%;
+  box-shadow: 0px 10px 20px;
+  padding-bottom: 3%;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.encabezado ul{
+  background-position: center;
+}
+  span:hover {
+    cursor: pointer;
+  }
+  ul {
+    display: inline;
+  }
+  ul li {
+    display: inline;
+    padding: 5px 40px;
+  }
+    ul li a {
+      font-size: 20px;
+      text-decoration: none;
+      color: white;
+      letter-spacing: 0.1em;
+    }
+    ul li a:hover {
+      color:  black;
+      font-size: 20px;
+      box-sizing: red;
+      text-decoration: none;
+    }
+
+#portada-perro{
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.carousel-inner p h3{
+  color: black;
+}
+
+#logo{
+  margin: 1.5% 10% 2% 1.5%;
+}
+
+#logo:hover{
+  cursor: pointer;
+}
+
+#cel{
+  padding-left: 80px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  color: white;
+  text-decoration: none;
+}
+
+#lema{
+  margin-left: 70px;
+  margin-right: 70px;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+}
+
+#redes-sociales{
+  margin-right: 5%;
+}
+
+.barra-infer{
+  margin-top: 3%;
+  width: 100%;
+  align-content: center;
+}
+
+#titulo-1{
+  text-align: right;
+  margin-right: 5%;
+}
+
+#etapa-1{
+  text-align: right;
+  color:  #7c7c7c;
+  margin-right: 5%;
+}
+
+#guion{
+  text-align: right;
+  font-weight:bold;
+  margin-right: 5%;
+}
+
+#texto-1{
+  text-align: right;
+  margin-right: 5%;
+}
+
+#img1{
+  float: right;
+  margin-right: 5%;
+}
+
+
+#titulo-2{
+  text-align: left;
+  margin-left: 5%;
+}
+
+#etapa-2{
+  text-align: left;
+  color: #7c7c7c;
+  margin-left: 5%;
+}
+
+#guion-2{
+  text-align: left;
+  font-weight:bold;
+  margin-left: 5%;
+}
+
+#texto-2{
+  text-align: left; 
+  margin-left: 5%;
+}
+
+#img2{
+  width: 250px;
+  margin-left: 5%;
+}
+
+#btn-1{
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+  font-family: inherit;
+  padding: 5px 5px 5px 5px;
+  border: solid 2px black;
+  margin-left: 5%;
+  border-radius: 10%;
+}
+
+#btn-1:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
+
+.nosotros{
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  font-size: 25px;
+}
+
+#quiensoy{
+  width: 100%;
+  text-align: center;
+}
+
+#tit{
+  width: 100%;
+  font-size: 100px;
+  text-align: left;
+  font-family: fantasy;
+}
+
+.banner-adoptar{
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+  display: block;
+}
+
+.banner-adoptar img{
+  width: 100%;
+  border-top: solid 8px black;
+  border-bottom: solid 8px black;
+}
+
+#text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 15%;
+  left: 10%;
+}
+
+#text h3{
+  font-family: monospace;
+  color: black;
+}
+
+#text p{
+  font-family: fantasy;
+  font-size: 120px;
+  color: black;
+}
+
+#btn-adoptar{
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 75%;
+  left: 45%;
+  background-color: black;
+  border-radius: 5%;
+  list-style: none;
+  text-decoration: none;
+  border: solid 2px black;
+}
+
+#btn-adoptar a{
+  color: white;
+  padding: 8%;
+}
+
+#btn-adoptar :hover{
+  background-color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#btn-adoptar a:hover{
+  color: black;
+}
+
+.formulario{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#titleform{
+  width: 100%;
+}
+
+#titleform h3{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 90px;
+}
+
+#contentform{
+  width: 100%;
+  left: 30%;
+  position: relative;
+  font-size: 25px;
+}
+
+.form{
+  width:60%;
+  background:#e6e6e6;
+  border-radius:8px;
+  box-shadow:0 0 40px -10px #000;
+  margin:auto;
+  margin-top: 2%;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+  position:relative
+}
+.form h2{
+  padding-bottom:10px;
+  width:100%;
+  color:#78788c;
+  font-size: 35px;
+  border-bottom:3px solid #78788c
+}
+.form input{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
+}
+.form input:focus{
+  border-bottom:2px solid #78788c
+}
+.form p:before{
+  content:attr(type);
+  display:block;
+  margin:28px 0 0;
+  font-size:14px;
+  color:#5a5a5a
+}
+.form button{
+  float:center;
+  margin-top: 2%;
+  padding: 15px;
+  width: 100%;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  border-radius: 30px;
+  background-color: #5a5a6e;
+  color:white;
+  cursor:pointer;
+  transition:all .3s
+}
+.form button:hover{
+  background:#78788c;
+  color:#fff
+}
+.form div{
+  content:'Hi';
+  position:absolute;
+  bottom:-54px;
+  right:6px;
+  background:#50505a;
+  color:#fff;
+  width:320px;
+  padding:16px 4px 16px 0;
+  border-radius:6px;
+  font-size:13px;
+  box-shadow:10px 10px 40px -14px #000
+}
+
+.parte-2{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.parte-2 section{
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.parte-3{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.galeria {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria li {
+  margin: 5px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 100px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+  display: none;
+}
+
+.modal:target {
+  display: block;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.imagen {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen a {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
+
+.imagen img {
+  width: 500px;
+  height: 100%;
+  max-width: 100%;
+  border: 7px solid #fff;
+  box-sizing: border-box;
+}
+
+.cerrar {
+  display: block;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 25px;
+}
+
+.gal{
+  width: 100%;
+  color: black;
+  background-image: url('http://a1group.co/wp-content/uploads/2018/06/pared-ladrillo-blanco-fabulous-paredes-pinterest-mlaga-y-textura-de-ladrillos-blancos-descargar-fotos-gratis-1203-1665.jpg'); 
+  border-top: solid 8px black;
+  border-bottom: solid 8px black;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.gal h3{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 80px;
+}
+
+.gal p{
+  font-size: 25px;
+}
+
+.col-md-4 h5{
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+    background-color: gray;
+    background-size: cover;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.l-adopcion{
+  width: 100%;
+  padding-top: 2%;
+}
+
+.l-adopcion h3{
+  font-size: 80px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.box-table{
+  width: 100%;
+  padding-top: 5%;
+}
+
+.box-tabla{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 50%;
+  background-color: gray;
+  color: lightgray;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+.pie-pagina{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.pie-pagina em{
+  width: 100%;
+  margin-top: 5%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-family: monospace;
+  color: black;
+}
+
+
+@media (max-width: 1024px){
+
+  .encabezado ul li{
+    font-size: 20px;
+  }
+
+  .encabezado ul{
+    display: block;
+    text-align: center;
+  }
+
+  #text p{
+  font-family: fantasy;
+  font-size: 80px;
+  color: black;
+  }
+
+  #scrollUp {
+    bottom: 50px;
+    right: 50px;
+    width: 50px;    /* Width of image */
+    height: 50px;   /* Height of image */
+    background-color: gray;
+    background-size: cover;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: lightgray;
+  }
+
+  .form input{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+  font-size: 18px;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
+  }
+
+  .form p{
+    font-size: 20px;
+  }
+
+  .parte-2{
+    font-size: 18px;
+  }
+
+  .form button{
+  float:center;
+  margin-top: 2%;
+  padding: 15px;
+  width: 100%;
+  font-family:'Montserrat',sans-serif;
+  font-size: 20px;
+  border:2px solid #78788c;
+  border-radius: 30px;
+  background-color: #5a5a6e;
+  color:white;
+  cursor:pointer;
+  transition:all .3s
+  }
+
+  .col-md-4{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .col-md-4 h5{
+    padding-top: 7%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+  }
+
+}
